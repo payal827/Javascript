@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(133, 125, 125);
+        }
+        .error{
+            display: none;
+            color: red;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <form>
+        <!-- <input id="name" type="text" placeholder="name">
+        <br>
+        <small id="hide">Your name should be greater than 2 char</small>
+        <br> -->
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="email">
+        <small class="error" id="emailError"></small>
+        <br><br>
+
+        <label for="password">Password</label>
+        <input type="text" id="password" placeholder="password">
+        <small class="error" id="passwordError"></small>
+        <br><br>
+        
+        <br><br>
+        
+        <button>Validate</button>
+    </form>
+    <div id="resultMsg"></div>
+
+
+    <script src="form.js"></script>
+
+</body>
+
+</html>
